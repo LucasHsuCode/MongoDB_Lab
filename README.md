@@ -40,3 +40,27 @@ Before using these commands, ensure that the MongoDB server is running. If you e
 
 
 
+* use <database>: Switches to the specified database.
+
+* show dbs: Lists all databases.
+
+* show collections: Lists all collections in the current database.
+
+* db.<collection>.find(): Finds documents in the specified collection.
+
+* db.<collection>.insertOne(): Inserts a new document into the specified collection.
+
+* db.<collection>.updateOne(): Updates a document in the specified collection.
+
+* db.<collection>.deleteOne(): Deletes a document from the specified collection.
+
+* db.<collection>.aggregate(): Performs an aggregation operation on the specified collection.
+
+* db.stats(): Displays status information for the current database, such as database size and number of documents.
+
+* db.dropDatabase(): Deletes the current database.
+
+These are some of the common MongoDB shell commands that can help you perform database operations. It's important to be mindful of syntax and naming conventions when entering commands in the shell to avoid errors.
+
+
+
